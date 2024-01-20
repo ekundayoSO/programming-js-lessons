@@ -10,9 +10,6 @@
 - Use the typeof operator to check the data type of each variable and print the result using console.log(). 
 */
 
-// SHIFT + OPTION + A
-
-
 let age = 25;
 let name = "John Doe";
 let isStudent = true;

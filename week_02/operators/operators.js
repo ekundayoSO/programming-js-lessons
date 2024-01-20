@@ -11,11 +11,11 @@ let a, b;
 a = 25;
 b = 20;
 
-let addition = a + b;
-let substraction = a - b;
-let multiply = a * b;
-let divide = a / b;
-let remainder = a % b;
+let addition = a + b; // It sums values of a and b
+let substraction = a - b; // It deduct the value of b from value of a
+let multiply = a * b; // It produces product of values a and b
+let divide = a / b; // The value of a is divided by the value of b
+let remainder = a % b; // It produces the remainder when a is divided by b
 
 console.log(addition);
 console.log(substraction);
