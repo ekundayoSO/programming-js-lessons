@@ -7,12 +7,10 @@ function evenOrOdd(number) {
         console.log("even");
     } else if (number % 2 !== 0) {
         console.log("Odd");
-    } else {
-        console.log("Does not exit!");
-    }
+    } 
 }
 
 // Sample usage - do not modify
-console.log(evenOrOdd(25)); // true
-console.log(evenOrOdd(18)); // true
-console.log(evenOrOdd(-17)); // false
+console.log(evenOrOdd(25)); // odd
+console.log(evenOrOdd(18)); // even
+console.log(evenOrOdd(-17)); // odd

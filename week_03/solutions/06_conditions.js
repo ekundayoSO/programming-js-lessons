@@ -7,7 +7,7 @@ Returns a string combining the number and the appropriately pluralized form of t
  */
 function pluralize(noun, number){
     if (number !== 0 && number !== 1) {
-        return  number + ' ' +noun + "s";
+        return  number + ' ' + noun + "s";
     } else {
         return number + ' ' + noun;
     }
