@@ -2,8 +2,8 @@
 Refine the capitalize function to ensure it capitalizes the first letter of the name parameter provided to it.
  */
 
-function capitalize(word) {
-    return word.charAt(0).toUpperCase() + word.slice(1);
+function capitalize(name) {
+    return name.charAt(0).toUpperCase() + name.slice(1);
 }
 
 // Sample usage - do not modify
