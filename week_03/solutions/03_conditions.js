@@ -10,6 +10,20 @@ function evenOrOdd(number) {
     }
 }
 
+// Alternative
+/*
+function evenOrOdd(num) {
+    if (num % 2 !== 0) {
+        console.log("odd");
+    } else {
+        console.log("even");
+    }
+}
+
+*/
+
+
+
 // Sample usage - do not modify
 console.log(evenOrOdd(25)); // odd
 console.log(evenOrOdd(18)); // even

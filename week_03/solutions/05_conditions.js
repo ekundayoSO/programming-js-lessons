@@ -10,16 +10,16 @@ Returns a letter grade for the score based on these criteria:
 - 'F' for scores below 60.
 
 */
-function assignGrade(x) {
-    if (x >= 90) {
+function assignGrade(score) {
+    if (score >= 90) {
         return "A"
-    } else if (x >= 80 && x <= 89) {
+    } else if (score >= 80 && score <= 89) {
         return "B"
-    } else if (x >= 70 && x <= 79) {
+    } else if (score >= 70 && score <= 79) {
         return "C"
-    } else if (x >= 60 && x <= 69) {
+    } else if (score >= 60 && score <= 69) {
         return "D";
-    } else if (x < 60) {
+    } else if (score < 60) {
         return "F";
     }
 }
