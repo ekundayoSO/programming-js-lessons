@@ -6,7 +6,12 @@ Develop a function called greaterNum which:
 
  */
 function greaterNum(a, b) {
-    return Math.max(a, b);
+    if (a > b) {
+        return a;
+    } else {
+        return b;
+    }
+    //return Math.max(a, b);
 }
 
 // Sample usage - do not modify

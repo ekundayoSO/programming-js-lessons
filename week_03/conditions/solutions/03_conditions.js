@@ -4,10 +4,10 @@ Complete the function evenOrOdd such that it returns the string "even" when the 
 
 function evenOrOdd(number) {
     if (number % 2 === 0) {
-        console.log("even");
+        return "even";
     } else {
-        console.log("odd");
-    }
+        return "odd";
+    } 
 }
 
 // Alternative

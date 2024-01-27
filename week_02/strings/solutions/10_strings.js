@@ -4,7 +4,6 @@ Refine the capitalize function to ensure it capitalizes the first letter of the 
 
 function capitalize(name) {
     return name.charAt(0).toUpperCase() + (name.slice(1)).toLowerCase();
-
 }
 
 // Sample usage - do not modify
