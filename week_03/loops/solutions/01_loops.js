@@ -9,12 +9,11 @@ let oddNums = " ";
 
     for (let i = 1; i < 100; i+=2) {
         if (i % 2 !== 0) {
-            oddNums += i  +  ", " + " ";
-            /*console.log(i);*/
+            oddNums += i  +  ", ";
         }  
-       // resultString = resultString.slice(0, -2);
+       
 
     paraElement.textContent = oddNums;  
     }
 }
-//questionOne();
+
