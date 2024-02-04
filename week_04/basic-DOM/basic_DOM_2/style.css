@@ -1,0 +1,14 @@
+#fruitInput {
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#addFruitBtn {
+    border: none;
+    background-color: rgb(31, 31, 175);
+    color: White;
+    border-radius: 4px;
+    padding: 4px;
+}

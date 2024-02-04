@@ -8,6 +8,7 @@
 body {
   background-color: #b3ce96;
   background-image: url("image3.jpg");
+  font-size: larger;
   margin-left: 80px;
   margin-right: 40px;
   margin-top: 25px;
@@ -37,7 +38,7 @@ h1 {
 }
 
 p {
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 400;
     margin-top: 25px;
 }

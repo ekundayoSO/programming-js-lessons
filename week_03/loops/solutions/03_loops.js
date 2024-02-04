@@ -12,7 +12,7 @@
   
     let hr = Number(prompt("Enter hours"));
   
-    if (km !== 0 && hr !== 0) {
+    if (km !== 0) {
       let averageSpeed = (km / hr).toFixed(1);
       console.log(`Average speed: ${averageSpeed} km/h`);
     } else {

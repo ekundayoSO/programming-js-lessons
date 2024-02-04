@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    background-color: rgb(135, 178, 135);
+   border-radius: 5px;
+}

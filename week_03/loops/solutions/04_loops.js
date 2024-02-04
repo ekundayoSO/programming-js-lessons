@@ -3,7 +3,7 @@
 let inputNumbers;
 let evenNumCount = 0;
 
-for (let i = 1; i <= 3; i++) {
+for (let i = 1; i <= 20; i++) {
   inputNumbers = Number(prompt("Enter your numbers here"));
 
   if (inputNumbers % 2 === 0) {

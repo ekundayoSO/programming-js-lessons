@@ -25,10 +25,10 @@ function askQuestion() {
       break;
     case 3:
       responseElement.textContent =
-        "Follow excellence, and success will chase you... '3 Idiots' is my favourite movie ever";
+        "Follow excellence, and success will chase you... '3 Idiots' is my favourite movie ever.";
       break;
     case 4:
-      responseElement.textContent = "Please wake me up when I'm famous";
+      responseElement.textContent = "Please wake me up when I'm famous.";
       break;
     case 5:
       responseElement.textContent = "East or West home is the best!";
@@ -39,13 +39,13 @@ function askQuestion() {
       break;
     case 7:
       responseElement.textContent =
-        "How far is the Earth to the Moon? I think I need to ask Mr. Google or, better still, Elon Musk";
+        "How far is the Earth to the Moon? I think I need to ask Mr. Google or, better still, Elon Musk.";
       break;
     case 8:
       responseElement.textContent = "Hurray it is Friday!!!!!!!";
       break;
     default:
-      responseElement.textContent = "Invalid question";
+      responseElement.textContent = "Invalid question.";
   }
       questionInput.value = "";
 }
