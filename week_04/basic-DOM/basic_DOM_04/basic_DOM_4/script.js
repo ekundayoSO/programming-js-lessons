@@ -5,11 +5,8 @@ let checkboxes = document.querySelectorAll(
   '.customization-section input[type="checkbox"]'
 );
 
-function selectElement(event) {
+function priceImgFun(event) {
   priceElement.textContent = `$${event.target.value}`;
-}
-
-function imgPriceFun(event) {
   imgElement.textContent = `$${event.target.value}`;
 }
 
@@ -19,7 +16,6 @@ checkboxes.forEach((checkbox) => {
     const checkboxValue = parseInt(checkbox.value);
     let totalPrice = parseInt(priceElement.textContent.replace("$", ""));
     let imgPrice = parseInt(imgElement.textContent.replace("$", ""));
-    let priceAnimation = imgElement.textContent
 
     // Update total price with the checkbox status
     if (checkbox.checked) {
@@ -37,5 +33,4 @@ checkboxes.forEach((checkbox) => {
   });
 });
 
-selection.addEventListener("change", selectElement);
-selection.addEventListener("change", imgPriceFun);
+selection.addEventListener("change", priceImgFun);
