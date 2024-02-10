@@ -21,6 +21,9 @@ checkboxes.forEach((checkbox) => {
     if (checkbox.checked) {
       totalPrice += checkboxValue;
       imgPrice += checkboxValue;
+    } else {
+      totalPrice -= checkboxValue;
+      imgPrice -= checkboxValue;
     }
     priceElement.textContent = `$${totalPrice}`;
     imgElement.textContent = `$${imgPrice}`;

@@ -15,15 +15,32 @@ const inputElement = document.querySelector("#fruitInput");
 const ul = document.querySelector("#fruitList");
 const button = document.querySelector("#addFruitBtn")
 
-function newInput() {
+function newInputFun() {
     let li = document.createElement("li");
     li.appendChild(document.createTextNode(inputElement.value));
     ul.appendChild(li);
     inputElement.value = "";
 }
 
-button.addEventListener('click', newInput);
+button.addEventListener('click', newInputFun);
 
 
+// Margit Version
+/* const button2 = document.querySelector("#addFruitBtn")
 
+const adddetails = () => {
+    const fruitInput = document.querySelector("#fruitInput");
+    const fruitList = document.querySelector("#fruitList");
+
+    if (fruitInput) {
+    const newLi = document.createElement("li");
+    newLi.textContent = fruitInput.value.trim();
+    fruitList.appendChild(newLi);
+    fruitInput.value = "";
+    } else {
+        alert("Please enter a fruit name");
+    }
+};
+
+button2.addEventListener('click', adddetails); */
 

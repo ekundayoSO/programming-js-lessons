@@ -21,20 +21,35 @@ The event listener's function should:
 */
 
 const input = document.querySelector("#inputField");
-const para = document.querySelector(".para");
+const div = document.querySelector("#displayText");
 
 function updateDiv(event) {
-    para.textContent = event.target.value;
+    div.textContent = event.target.value;
     input.value = "";  
 }
 
-function inputEvent(event) {
-    para.textContent = event.target.value; 
+function inputEvent() {
+   /*  div.textContent = event.target.value;  */
+   /* div.textContent = input.value; */
+   console.log(input.value);
 }
 
 input.addEventListener('change', updateDiv);  
-
 input.addEventListener("input", inputEvent);
+
+
+// Margit Version
+
+const input2 = document.querySelector("#inputField");
+const text = document.querySelector("#displayText");
+
+const changeText = () => {
+    //console.log(text);
+    //console.log(input.value);
+    text.textContent = input.value;
+}
+
+input2.addEventListener('input', changeText);  
 
 
 
