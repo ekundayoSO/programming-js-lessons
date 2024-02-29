@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars</title>
+    <link rel="stylesheet" href="cars.css" />
+  </head>
+  <body>
+    <div class="search-field">
+      <label for="search"></label>
+      <input type="search" placeholder="search" id="search" />
+      <button type="button">click</button>
+    </div>
+    <div class="main">
+      <form class="container">
+        <div class="car">
+          <label for="car-number">License number</label>
+          <input type="text" name="car-number" id="car-number" />
+        </div>
+        <div class="car">
+          <label for="car-maker">Car maker</label>
+          <input type="text" name="car-maker" id="car-maker" />
+        </div>
+        <div class="car">
+          <label for="car-model">Car model</label>
+          <input type="text" name="car-model" id="car-model" />
+        </div>
+        <div class="car">
+          <label for="car-owner">Car owner</label>
+          <input type="text" name="car-owner" id="car-owner" />
+        </div>
+        <div class="car">
+          <label for="car-price">Price</label>
+          <input type="text" name="car-price" id="car-price" />
+        </div>
+        <div class="car">
+          <label for="car-color">Colour</label>
+          <input type="text" name="car-color" id="car-color" />
+        </div>
+        <button type="button" class="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+      <div id="carTableContainer">
+      </div>
+    </div>
+    <script src="cars.js"></script>
+  </body>
+</html>
