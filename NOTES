@@ -1,0 +1,38 @@
+JavaScript:
+
+1. Remember to revise the lesson done on Monday before Friday lesson.
+2. HTTP —> Hyper-Text Transfer Protocol 
+3. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill
+4. Command + N, Command + S, Command + B
+5. Option + Up and Down arrows —> move text up and down
+6. Command + Shift + P
+7. Option + Command + J —> Open console
+8. Command + SHIFT + 7
+9. https://docs.emmet.io/abbreviations/syntax/
+10. Remove repo from local directory: rm -rf .git
+11. Check the remote you are: git remote -v
+12. Remove old git remote: git remote rm origin
+13. SHIFT + Command + (.)   ==> locating hidden file
+14. Remote set origin—
+15. Shorthand for commenting:   ==> SHIFT + OPTION + A
+16. JSON ==> JavaScript Object Notation
+17. Md ==> mark down
+18. SHIFT + OPTION +  button(``) after plus + button
+19. Arrays and Objects should always go with (const) because they are non-primitive data type. The value inside object and arrays can change and not the object and array themselves.
+20. Random number function, prompt and switch.
+21. Data Mutation: Don’t mutate data in arrays, that’s replacing old data with new one. Instead create another variable to store the new data and still maintain the old one.
+22. Git set remote …..
+23. Git remove
+24. Git set
+25. Git -v 
+26. Force push
+27. Force pull
+28. NaN - Not a Number ==> if (isNaN(number))
+MR- merge request
+PR- pull request
+Git pull U — U “Upstream” ie original code
+“Sugarcoating in JS” — Making a bigger or lengthy codes to be shorter and still give same result. AND another example is “await” and “promises” in asynchronous.
+
+
+
+https://thevalleyofcode.com 

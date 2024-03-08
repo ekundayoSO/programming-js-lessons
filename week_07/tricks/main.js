@@ -1,16 +1,61 @@
-const backToTopButton = document.querySelector("#backToTop");
+const header = document.querySelector("header");
+const backToTop = document.querySelector("#backToTop");
+const mobButton = document.querySelector(".mobile");
+const nav = document.querySelector("nav ul");
+const menuItems = document.querySelectorAll("nav ul li a");
+const modalButton = document.querySelector(".modalButton");
+const overlay = document.querySelector(".overlay");
+const closeButton = document.querySelector(".closeButton");
 
-const getToTop = () => {
-    document.body.scrollTo = 0;
-    documentElement.scrollTo = 0;
+window.onscroll = function () {
+  scrollFunction();
 };
 
-function toTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth", // Optional: Adds smooth scrolling effect
-    });
-}
+const scrollFunction = () => {
+  if (
+    document.body.scrollTop > 200 ||
+    document.documentElement.scrollTop > 200
+  ) {
+    backToTop.style.display = "block";
+    header.classList.add("bg");
+  } else {
+    backToTop.style.display = "none";
+    header.classList.remove("bg");
+  }
+};
 
-// backToTopButton.addEventListener("click", toTop);
-backToTopButton.addEventListener("click", getToTop);
+const toggleModal = () => {
+  overlay.classList.toggle("visible");
+};
+
+const toggleMenu = () => {
+  nav.classList.toggle("responsive");
+};
+
+backToTop.addEventListener("click", () => {
+  document.body.scrollTop = 0; // for Safari
+  document.documentElement.scrollTop = 0; // Chrome, FF and others
+  // header.style.backgroundColor = 'orange';
+  header.classList.toggle("bg");
+});
+
+mobButton.addEventListener("click", toggleMenu);
+menuItems.forEach((item) => item.addEventListener("click", toggleMenu));
+
+modalButton.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+overlay.addEventListener("click", toggleModal);
+
+/*
+// Alternative to the above 1.
+backToTopButton.addEventListener('click', () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+});
+
+// Alternative 2
+document.querySelector("#backToTo").addEventListener("click", () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
+*/
