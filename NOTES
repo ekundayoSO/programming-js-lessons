@@ -33,6 +33,8 @@ PR- pull request
 Git pull U — U “Upstream” ie original code
 “Sugarcoating in JS” — Making a bigger or lengthy codes to be shorter and still give same result. AND another example is “await” and “promises” in asynchronous.
 
+CALLBACKs -means calling a function inside another function
+
 
 
 https://thevalleyofcode.com 

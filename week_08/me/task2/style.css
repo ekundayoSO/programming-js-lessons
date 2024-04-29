@@ -1,0 +1,19 @@
+body {
+  background-color: lightcoral;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+.data > div {
+    background-color: white;
+    border-radius: 5px;
+    color: #333;
+    padding: 1rem;
+}
